@@ -1,7 +1,81 @@
+/* Top level styling  */
 * {
-  background-color: antiquewhite;
+  color: white;
 }
 
 body {
   margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #23252c;
+}
+/* Center themain App view */
+.App {
+  height: 600px;
+  width: 30%;
+  padding: 10px;
+  margin: auto;
+}
+
+/* Cutomize Heading section  */
+.img--headshot {
+  border-radius: 4%;
+}
+
+.div--titles {
+  text-align: center;
+}
+
+.div--titles > h3 {
+  color: #f3bf99;
+}
+.div--titles > a {
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.div--buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 30px;
+  margin-top: 5px;
+  gap: 30px;
+}
+
+.button--email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  gap: 3px;
+  font-size: 17px;
+
+  background: #ffffff;
+  /* gray/300 */
+
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  color: black;
+}
+
+.button--Linkdin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  font-size: 17px;
+
+  width: 150px;
+  height: 40px;
+
+  background: #5093e2;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
 }

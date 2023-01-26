@@ -1,16 +1,31 @@
+import frogLogo from "../assets/frog.jpeg";
+import mail from "../assets/Mail.png";
+import linkdin from "../assets/linkedin.png";
 export default function Topsection() {
   return (
     <div>
       <header className="header--section">
-        <div>place image here</div>
+        <img
+          className="img--headshot"
+          src={frogLogo}
+          alt="image of an frog with a hoodie"
+        />
         <div className="div--titles">
           <h1>Wzrdk3lly</h1>
           <h3>Web3 Security Researcher</h3>
-          <a href="">wzrdk3lly's blog</a>
+          <a href="https://spectrum-close-522.notion.site/Wzrdk3lly-s-Lounge-7749dc97c31940ec96ee8ccbe1466f00">
+            wzrdk3lly's blog
+          </a>
         </div>
         <div className="div--buttons">
-          <button className="button--email">Email</button>
-          <button className="button--Linkdin">Linkdin</button>
+          <button className="button--email">
+            <img src={mail} />
+            Email
+          </button>
+          <button className="button--Linkdin">
+            <img src={linkdin} />
+            Linkdin
+          </button>
         </div>
       </header>
     </div>
