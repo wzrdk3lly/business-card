@@ -17,15 +17,18 @@ export default function Topsection() {
             wzrdk3lly's blog
           </a>
         </div>
-        <div className="div--buttons">
-          <button className="button--email">
+        <div className="div--links">
+          <a href="mailto:dkmk1149@gmail.com" className="a--email">
             <img src={mail} />
             Email
-          </button>
-          <button className="button--Linkdin">
+          </a>
+          <a
+            href="www.linkedin.com/in/miles-n-b6327315b"
+            className="a--Linkdin"
+          >
             <img src={linkdin} />
             Linkdin
-          </button>
+          </a>
         </div>
       </header>
     </div>

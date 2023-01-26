@@ -2,15 +2,15 @@ function Content() {
   return (
     <main className="main--about">
       <h3>About</h3>
-      <div>write a paragraph about you </div>
-      <h3>
-        I'm a blockchain security researcher that loves to learn about every
-        aspect of tech in order to become a better hacker
-      </h3>
       <div>
-        I'm passionate about traveling and living a nomadic life. I also like to
-        give back to the Atlanta youth as a member of the Emerging 100 Black Men
-        of Atlanta.
+        I'm a blockchain security researcher that enjoys learning about every
+        aspect of technology in order to become a better hacker
+      </div>
+      <h3>Interest</h3>
+      <div>
+        Lately I have been enjoying a nomadic life, traveling to places like
+        Colombia and Mexico. Community service plays a big role in my life as I
+        serve in Atl with the Emerging 100.
       </div>
     </main>
   );
