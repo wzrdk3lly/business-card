@@ -24,7 +24,7 @@ body {
 /* Cutomize Heading section  */
 .img--headshot {
   margin-top: 20px;
-  border-radius: 4%;
+  border-radius: 1%;
   /* allows the imgage to resize automatically when window is adjusted  */
   width: 100%;
   margin: auto;
