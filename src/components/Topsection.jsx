@@ -5,11 +5,14 @@ export default function Topsection() {
   return (
     <div>
       <header className="header--section">
-        <img
-          className="img--headshot"
-          src={frogLogo}
-          alt="image of an frog with a hoodie"
-        />
+        <div className="div--image">
+          <img
+            className="img--headshot"
+            src={frogLogo}
+            alt="image of an frog with a hoodie"
+          />
+        </div>
+
         <div className="div--titles">
           <h1>Wzrdk3lly</h1>
           <h3>Web3 Security Researcher</h3>
@@ -23,7 +26,7 @@ export default function Topsection() {
             Email
           </a>
           <a
-            href="www.linkedin.com/in/miles-n-b6327315b"
+            href="https://www.linkedin.com/in/miles-n-b6327315b"
             className="a--Linkdin"
           >
             <img src={linkdin} />
